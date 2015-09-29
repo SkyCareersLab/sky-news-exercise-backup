@@ -1,0 +1,113 @@
+<!doctype html>
+<html>
+<head>
+    <!-- Give the page a nice title to show in the browser -->
+    <title>Sky News</title>
+
+    <!-- Links page to stylesheet and adds favicon to page (you don't need to worry about these!) -->
+<!--     <link rel="stylesheet" href="../stylesheets/main.css"/> -->
+    <link href="../media/images/sky-assets/favicon.ico" rel="icon" type="image/png">
+
+    <script>
+  	function startTime() {
+  		var today=new Date("7/15/2010 12:00 am");
+  		var h=today.getHours();
+  		var m=today.getMinutes();
+  		m = checkTime(m);
+  		document.getElementById('clock').innerHTML = h+":"+m;
+  		var t = setTimeout(function(){startTime()},500);
+  	}
+
+  	function checkTime(i) {
+  		if (i<10) {i = "0" + i}  // add zero in front of numbers < 10
+  		return i;
+  	}
+  	</script>
+</head>
+
+<body onload="startTime()">
+<div class="banner"></div>
+<div class="content">
+    <div class="header">
+        <a href="index.html">
+            <img src="../media/images/sky-assets/sky-news-logo.png">
+        </a>
+        <img class="right" source="../media/images/sky-assets/sky-academy-logo.png">
+
+    </div>
+
+    <div class="top-stories-heading">
+        <a href="index.html">
+            <span>&lt;&lt; Back</span>
+        </a>
+    </div>
+
+    <div class="news-header">
+        <h1>Prepare Paws For Landing: Cat Clings Onto Plane</h1>
+        <p class="sub-title">
+            Video captures the moment a pilot spots a moggy travelling cat-tle class
+            on the wing of his light aircraft high above the ground.
+        </p>
+
+        <!--<video width="762" height="428" controls>
+            <source src="../media/videos/cat-plane.mp4" type="video/mp4">
+        </video> -->
+    </div>
+
+    <div class="news-content-left">
+        <div class="story-intro">
+            <p>
+                Scampering across the wing then clinging on for dear life.
+            </p>
+        </div>
+        <para>
+            This incredible video shows a stowaway cat desperately holding on to
+            a light aircraft as it glides through the skies of French Guiana..
+        </para>
+        <para>
+            In-flight footage shows the black and white moggy taking up position
+            just inches from the pilot and his passenger.
+        </para>
+        <para>
+            The pilot notices his unexpected guest around a minute into the video,
+            when the plane was already high in the sky.
+        </para>
+        <para>
+            He decided to head back to the runway for an unscheduled landing, probably
+            hoping that the cat did not panic and attempt to jump in the meantime.
+        </para>
+    </div>
+
+    <div class="news-content-right">
+        <p>
+            After a safe touchdown, the cat stayed frozen to the spot until the pilot
+            went to grab it, at which point it scampered off.
+        </p>
+        <p>
+            The video was taken during a flight at aviation school Club ULM in Kourou,
+            French Guiana.
+        </p>
+        <p>
+            A caption on the video posted by the club said: "Routine maiden flight
+            until ... the importance of looking into the wings before each flight.
+        </p>
+        <p>
+            "For your information the cat is fine - it continues with its role as
+            club mascot."
+        </p>
+    </div>
+
+
+    <div class="breaking-news-banner">
+        <div class="breaking-news-jumbotron">BREAKING NEWS</div>
+        <div id="clock"></div>
+        <div class="breaking-news-text">
+            <marquee>Shabani the Japanese Gorilla has escaped from his enclosure and is now taking photographs of every woman at the zoo.</marquee>
+        </div>
+    </div>
+
+</div>
+
+</body>
+
+</html>

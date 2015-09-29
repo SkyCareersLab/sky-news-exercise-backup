@@ -1,0 +1,10 @@
+Sky Developer Crash Course!
+
+Try out the following tasks on taskPage.html to get used to the basics of HTML. Feel free to experiment!
+
+1. Change the size of the image to be double it's current size!
+2. Change the page title to "Sky's Spectacular Career's Lab!".
+3. Make the link work (it should link to this page nextPage.html).
+4. Add your names to the bottom of the paragraph (i.e. Page Edited by Homer Simpson and Ned Flanders)
+
+Congratulations, you should now be ready to develop a website for Sky!

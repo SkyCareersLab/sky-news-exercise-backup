@@ -1,1 +1,1 @@
-# sky-news-exercise
+# skynewsexercise

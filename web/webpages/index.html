@@ -1,0 +1,127 @@
+<!-- This is the main web page, which users will see first.
+This page contains the list of news stories so that users can find a story which interests them -->
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- The page's title is shown in search results and by the browser. It doesn't appear in the page itself. -->
+	<title>Sky News</title>
+
+	<!-- Links page to stylesheet and adds favicon to page (you don't need to worry about these!) -->
+	<link rel="stylesheet" href="../stylesheets/main.css"/>
+	<link href="../media/images/sky-assets/favicon.ico" rel="icon" type="image/png">
+
+	<script>
+	function startTime() {
+		var today =new Date("7/15/2010 11:23 pm");
+		var h =today.getHours();
+		var m =today.getMinutes();
+		m = checkTime(m);
+		document.getElementById('clock').innerHTML = h+":"+m;
+		var t = setTimeout(function(){startTime()},500);
+	}
+
+	function checkTime(i) {
+		if (i<10) {i = "0" + i}  // add zero in front of numbers < 10
+		return i;
+	}
+	</script>
+</head>
+
+
+<body onload="startTime()">
+	<div class="banner"></div>
+	<div class="content">
+		<div class="header">
+			<a href="index.html">
+				<img src="../media/images/sky-assets/sky-news-logo.png">
+			</a>
+			<img class="right" src="../media/images/sky-assets/sky-academy-logo.png">
+		</div>
+
+		<div class="top-stories-heading">
+			<span>Top Stories</span>
+		</div>
+
+		<div>
+			<a href="page-selfie.html">
+				<div class="story">
+					<div class="story-media">
+						<img src="../media/images/hunky-gorilla.png" >
+					</div>
+					<div class="story-info right">
+						<h2>Primal Instincts: Hunky Ape Has Japan Swooning</h2>
+						<p>A giant gorilla who strikes poses for photos and has been described as "very good-looking" is being
+							credited for attracting more women to a Japanese zoo. Women are apparently so smitten by his looks that
+							they have taken to social media to swoon and, according to the zoo, are flocking to his pen to take a peek.
+						</p>
+					</div>
+				</div>
+			</a>
+
+			<a href="page-selfie.html">
+				<div class="story">
+					<div class="story-media">
+						<img src="../media/images/dangerous-selfie.jpg" >
+					</div>
+					<div class="story-info right">
+						<h2>Warning: 'Cool Selfie Could Cost Your Life'</h2>
+						<p>A campaign uses road sign-style warning signs to highlight the dangers when taking personal photos in
+							hazardous scenarios. Some 10 people have been killed and 100 hurt already this year in accidents while
+							snapping hazardous images, from posing with a loaded gun or a hand grenade to climbing on to a railway bridge.
+						</p>
+					</div>
+				</div>
+			</a>
+
+			<a href="page-coffee.html">
+				<div class="story">
+					<div class="story-media">
+						<img src="../media/images/coffee-gadget.png" >
+					</div>
+					<div class="story-info right">
+						<h2>Looking Hot! Gadget Puts Your Face On A Coffee</h2>
+						<h3>A 3D printing-inspired machine that can create any image on the foam of a cup of coffee has been unveiled.
+							The image can be printed in just 10 seconds, using coffee extract stored in so-called Ripple Pods.
+						</h3>
+					</div>
+				</div>
+			</a>
+
+
+				<div class="story">
+					<div class="story-media">
+						<img src="../media/images/cat-plane.png" >
+					</div>
+					<div class="story-info right">
+						<h2>Video: Prepare Paws For Landing: Cat Clings Onto Plane</h2>
+						<p>Video captures the moment a pilot spots a moggy travelling cat-tle class on the wing of his light aircraft high above the ground.
+							In-flight footage shows the black and white moggy taking up position just inches from the pilot and his passenger.
+						</p>
+					</div>
+				</div>
+
+			<a href="page-pyramid.html">
+				<div class="story">
+					<div class="story-media">
+						<img src="../media/images/pyramid.png" >
+					</div>
+					<div class="story-info right">
+						<h2>NASA Finds Mystery 'Pyramid' On Dwarf Planet</h2>
+						<p>Space experts are baffled by a three-mile-high triangular mountain and "mysterious bright spots" shining from craters on Ceres.
+							The triangular peak was spotted by NASA's Dawn spacecraft as it orbited 2,700 miles above the distant dwarf planet.
+						</p>
+					</div>
+				</div>
+			</a>
+		</div>
+	</div>
+
+	<div class="breaking-news-banner">
+		<div class="breaking-news-jumbotron">BREAKING NEWS</div>
+		<div id="clock"></div>
+		<div class="breaking-news-text">
+			<marquee>Shabani the big, massive, hairy Japanese Gorilla has escaped from his enclosure and is now taking photographs with every woman at the zoo.</marquee>
+		</div>
+	</div>
+</body>
+</html>

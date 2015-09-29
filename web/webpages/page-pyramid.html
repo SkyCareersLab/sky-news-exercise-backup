@@ -1,0 +1,145 @@
+<!doctype html>
+<html>
+<head>
+    <!-- Give the page a nice title to show in the browser -->
+    <title>Sky Movies</title>
+
+    <!-- Links page to stylesheet and adds favicon to page (you don't need to worry about these!) -->
+    <link rel="stylesheet" href="../stylesheets/main.css"/>
+    <link href="../media/images/sky-assets/wrong.ico" rel="icon" type="image/png">
+
+    <script>
+    function startTime() {
+        var today =new Date();
+        var h =today.getHours();
+        var m =today.getMinutes();
+        m = checkTime(m);
+        document.getElementById('clock').innerHTML = h+":"+m;
+        var t = setTimeout(function(){startTime()},500);
+    }
+
+    function checkTime(i) {
+        if (i<10) {i = "0" + i}  // add zero in front of numbers < 10
+        return i;
+    }
+    </script>
+
+</head>
+
+<body onload="startTime()">
+    <div class="banner"></div>
+    <div class="content">
+        <div class="header">
+            <a href="index.html">
+
+            </a>
+            <img class="right" src="../media/images/sky-assets/sky-academy-logo.png" title="Sky Academy">
+
+        </div>
+
+        <div class="top-stories-heading">
+            <a href="index.html">
+                <span>&lt;&lt; Back</span>
+            </a>
+        </div>
+
+        <div class="news-header">
+            <h1 style="background-color:green;">NASA Finds Mystery 'Pyramid' On Dwarf Planet</h1>
+            <p class="sub-title">
+                Space experts are baffled by a three-mile-high triangular mountain and
+                "mysterious bright spots" shining from craters on Ceres.
+            </p>
+            <img src="../media/images/hunky-gorilla.png" class="page-image">
+        </div>
+
+        <div class="news-content-left">
+            <div class="story-intro">
+                <p>
+                    Scientists are investigating a mysterious, pyramid-shaped mountain
+                    on the surface of Ceres.
+                </p>
+            </div>
+            <p>
+                The triangular peak was spotted by NASA's Dawn spacecraft as it orbited
+                2,700 miles above the distant dwarf planet.
+            </p>
+            <p>
+                The mountain towers three miles above Ceres' flat surface - more than
+                half the height of Everest.
+            </p>
+            <p>
+                "Curiouser & curiouser. @NASA_Dawn sees pyramid-shaped peak," NASA tweeted
+                after taking images of the mystery mountain.
+            </p>
+            <p>
+                As the craft gets closer to Ceres - the largest object in the main asteroid
+                belt between Mars and Jupiter - more and more features are beginning to
+                reveal themselves.
+            </p>
+            <p>
+                They include "mysterious bright spots" in a 55-mile-wide crater.
+            </p>
+            <p>
+                At least eight spots can be seen in the largest bright area, which scientists
+                think is approximately six miles wid
+            </p>
+            <p>
+                They believe a highly reflective material is responsible for the spots,
+                with ice and salt leading possibilities.
+            </p>
+            <p>
+                Dawn's infrared mapping spectrometer allows scientists to identify specific
+                minerals on Ceres by looking at how light is reflected. Each mineral
+                reflects light wavelengths in a unique way, allowing experts to determine
+                the planet's rock and ice composition.
+            </p>
+        </div>
+
+        <div class="news-content-right">
+            <p>
+                As the spacecraft sends back more images and data, NASA will learn more
+                about the bright spots.
+            </p>
+            <p>
+                Experts have also identified numerous craters of varying sizes, many
+                of which have central peaks.
+            </p>
+            <p>
+                They say there is "ample evidence" of past activity on the planet's surface,
+                including landslides and collapsed structures.
+            </p>
+            <p>
+                "The surface of Ceres has revealed many interesting and unique features,"
+                said Carol Raymond, deputy principal investigator for the Dawn mission,
+                based at NASA's Jet Propulsion Laboratory in Pasadena, California.
+            </p>
+            <p>
+                "For example, icy moons in the outer solar system have craters with central
+                pits, but on Ceres central pits in large craters are much more common.
+            </p>
+            <p>
+                "These and other features will allow us to understand the inner structure
+                of Ceres that we cannot sense directly."
+            </p>
+            <p>
+                Dawn - the first mission to visit a dwarf planet - arrived at Ceres on
+                6 March. It will remain at its current 2,700-mile altitude until 30 June,
+                and then will descend to 900 miles in August.
+            </p>
+            <p>
+                Ceres, named after the Roman goddess of agriculture, was discovered
+                in 1801.
+            </p>
+        </div>
+
+        <div class="breaking-news-banner">
+            <div class="breaking-news-jumbotron">BREAKING NEWS</div>
+            <div id="clock"></div>
+            <div class="breaking-news-text">
+                <marquee style="color:#F8EB2B;">Shabani the Japanese Gorilla has escaped from his enclosure and is now taking photographs with every woman at the zoo.</marquee>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,195 @@
+@font-face {
+    font-family: skyFont;
+    src: url('../fonts/Sky_Reg.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: skyFontBold;
+    src: url('../fonts/Sky_Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: skyFontMed;
+    src: url('../fonts/Sky_Med.ttf') format('truetype');
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+h1 {
+    font-size: 42px;
+    font-family: skyFontMed, Helvetica, Arial, Verdana, sans-serif;
+}
+
+h2 {
+    font-size: 24px;
+    font-family: skyFontBold, Helvetica, Arial, Verdana, sans-serif;
+}
+
+p {
+    font-size: 18px;
+    color: #333333;
+}
+
+body{
+    margin: 0;
+    font-family: skyFont,Helvetica,Arial,Verdana,sans-serif;
+}
+
+.banner{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background: url('../media/images/sky-assets/banner-grdient.png') center top no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 155px;
+}
+
+.header {
+    display: block;
+    height: 155px;
+    width: 100%;
+}
+
+.header img {
+    display: inline-block;
+    width: 220px;
+    height: auto;
+    margin: 50px 0;
+}
+
+.content {
+    width: 1024px;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+
+.top-stories-heading {
+    vertical-align: bottom;
+    padding-bottom: 6px;
+    font-weight: normal;
+    font-size: 26px;
+    border-bottom: solid 1px #dcdcdc;
+    margin-top: 15px;
+}
+
+.top-stories-heading a {
+    color: #A4222A;
+}
+
+.right {
+    float: right;
+}
+
+.story {
+    width: 100%;
+    height: 250px;
+    margin: 20px 0;
+    background-color: #FFF;
+}
+
+.read {
+    background-color: #E3E3E3;
+}
+
+.story-media{
+    display: inline-block;
+    width: 40%;
+    height: 100%;
+    border: 1px solid #DCDCDC;
+}
+
+.story-media img {
+    height: 100%;
+    width: 100%;
+}
+
+.story-info {
+    display: inline-block;
+    vertical-align: bottom;
+    height: 100%;
+    width: 55%;
+    text-align: left;
+    font-size: 20px;
+}
+
+.sub-title {
+    text-align: left;
+    font-size: 20px;
+    color: #666666;
+}
+
+.page-image {
+    margin: 0 auto;
+    height: 428px;
+    border: 1px solid #dcdcdc;
+}
+
+.news-header {
+    text-align: center;
+}
+
+.news-content-left {
+    display: inline-block;
+    float: left;
+    text-align: left;
+    width: 49%;
+}
+
+.news-content-right {
+    display: inline-block;
+    float: right;
+    text-align: left;
+    width: 49%;
+}
+
+.story-intro {
+    font-family: skyFontBold, Helvetica, Arial, Verdana, sans-serif;
+}
+
+.breaking-news-banner {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 1400px;
+    position: fixed;
+    margin: 0 auto;
+}
+
+.breaking-news-text {
+    display: inline-block;
+    position: fixed;
+    font-weight: normal;
+    font-size: 26px;
+    width: 1310px;
+    background-color: #F8EB2B;
+    font-family: skyFontBold, Helvetica, Arial, Verdana, sans-serif;
+}
+
+#clock {
+    display: inline-block;
+    text-align: center;
+    color: black;
+    background-color: white;
+    font-size: 26px;
+    width: 90px;
+    height: 35px;
+}
+
+.breaking-news-jumbotron {
+    height: auto;
+    width: 420px;
+    font-size: 60px;
+    background: url(../media/images/sky-assets/red-gradient.png);
+    top: 2%;
+    color: white;
+}
+
+.red{
+    color: white;
+    background-color: red;
+}
