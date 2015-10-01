@@ -1,6 +1,6 @@
-Sky Developer Crash Course!
+Warm up exercise!
 
-Try out the following tasks on taskPage.html, which can be found the 'webpages folder'. Use this exercise to get used to the basics of HTML.
+Try out the following tasks on the taskPage.html, which can be found the 'webpages folder'. Use this exercise to get used to the basics of HTML.
 Feel free to experiment!
 
 1. Change the size of the Sky logo to be double it's current size!
