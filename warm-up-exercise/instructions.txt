@@ -5,7 +5,10 @@ Feel free to experiment!
 
 1. Change the size of the Sky logo to be double it's current size!
 2. Change the page title to "Sky's Spectacular Career's Lab!".
-3. Make the link work (it should link to this page nextPage.html).
-4. Add your names to the bottom of the paragraph of the taskPage.html (i.e. Page Edited by Homer Simpson and Ned Flanders)
+3. Re-align the page's content to the left.
+4. Fix the list found under "What emplotability skills will you learn" - they should have bullet points.
+5. Add your names to the bottom of the page of the taskPage.html (i.e. Page Edited by Homer Simpson and Ned Flanders)
+6. Make the link work (it should link to this page nextPage.html).
+
 
 Congratulations, you should now be ready to develop a website for Sky!
