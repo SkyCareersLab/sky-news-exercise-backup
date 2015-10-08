@@ -1,0 +1,27 @@
+MacBook Hints and Tips
+
+Either side of the space bar on the keyboard, there's a 'Command' (cmd) button. Below is a list of which keys you should press it with to do simple actions:
+
+	How to Copy?
+
+		'Command' + 'C'
+
+	How to Cut?
+
+		'Command' + 'X'
+
+	How to Paste?
+
+		'Command' + 'V'
+
+	How to Save the file (in the text editor)?
+
+		'Command' + 'S'
+
+	How to Refresh the websiste (in the web browser)?
+
+		'Command' + 'R'
+
+
+
+To see any changes you've made to the website: save your code in the text editor then open the web browser and refresh the page you've made changes to.
