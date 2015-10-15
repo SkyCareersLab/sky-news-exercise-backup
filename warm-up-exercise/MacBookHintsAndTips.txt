@@ -18,7 +18,7 @@ Either side of the space bar on the keyboard, there's a 'Command' (cmd) button. 
 
 		'Command' + 'S'
 
-	How to Refresh the websiste (in the web browser)?
+	How to Refresh the website (in the web browser)?
 
 		'Command' + 'R'
 
